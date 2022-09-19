@@ -1,0 +1,375 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.banner-img{
+  background-image: url('/public/Assets/19.png');
+  background-repeat: no-repeat;
+  background-size: cover!important;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.nav_btn button{
+  background: linear-gradient(90deg,#4640c2,#169573);
+  padding: 0.5rem 0rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+  width: 108px;
+  border: none;
+}
+.nav-link {
+  padding-left: 3rem !important;
+  font-size: 0.9rem !important;
+  color: #fff !important;
+}
+.navbar-dark{
+  -webkit-box-shadow: inset 0 0 10px #000000;
+}
+.fantom_text h1{
+  font-size: 49px;
+  background: linear-gradient(#7456e4, #0ee66e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.square {
+  height: 55px;
+  width: 55px;
+  background: linear-gradient(#7456e4, #0ee66e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(46deg);
+}
+.shape_img{
+  transform: rotate(-46deg);
+}
+.fantom_text{
+  margin-top: 18rem;
+}
+.ul_div{
+  margin-top: 13rem;
+}
+.ul_div ul{
+  margin-bottom: 3rem;
+  padding-left: 3rem;
+}
+.section1{
+  background-image: linear-gradient(to right, #04853f , #3f4db6);
+  margin-top: 8rem;
+  padding: 1rem 0rem;
+}
+.matic{
+  font-size: 10px;
+  color: #fff;
+  margin-left: 2.2rem;
+}
+.img_sec1{
+  margin-left: 2rem;
+  width: 14%;
+}
+.total{
+  margin-left: 1.5rem;
+  color: #fff;
+}
+.card_sect1{
+  width: 231px;
+  height: 188px;
+  background: #000;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+.card_sect1 p{
+  color: #fff;
+}
+
+.world_img{
+  width: 45%;
+  opacity: 0.5;
+}
+.world_para{
+  position: absolute;
+  color: #fff;
+  padding-top: 12rem;
+}
+.world_para h1{
+  background: linear-gradient(#7456e4, #0ee66e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+.prof_sec{
+  margin-top: 8rem !important;
+  background: linear-gradient(#7456e4, #0ee66e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+.profit_card{
+  padding: 3rem 2.5rem;
+  width: 66%;
+  margin-top: 5rem;
+}
+.input_text{
+  background: none !important;
+  border: 1px solid #47525d !important;
+}
+.stake_btn{
+  background: linear-gradient(90deg,#4640c2,#169573);
+  color: #fff !important;
+  border: none !important;
+}
+.day{
+  font-size: 12px;
+}
+.card_center{
+  display: flex;
+  justify-content: center;
+}
+.section4{
+  margin-top: 10rem !important;
+}
+.lotery h1{
+  position: relative;
+  bottom: 169px;
+  background: linear-gradient(#7456e4, #0ee66e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+.lotery p{
+  color: hsl(240deg 7% 62%);
+}
+.blue_bg{
+  background: #51288a;
+  padding: 0rem 6rem !important;
+}
+.green_bg{
+  background: #2e1c46;
+  padding: 3rem;
+  opacity: 0.8;
+}
+.green_bg p{
+  text-align: center;
+  padding: 3rem 2rem 0rem 2rem;
+  font-size: 14px;
+  line-height: 2.5;
+}
+.white_img{
+  width: 100%;
+}
+.white_paper{
+  margin: 7rem 0rem 4rem 0rem !important;
+}
+.white_paper_img{
+  width: 46% !important;
+  position: absolute;
+  left: 22rem;
+  margin-top: 10rem !important;
+}
+.world_imgl{
+  background-image: url('/public/Assets/15.png');
+  background-repeat: no-repeat;
+  background-size: cover!important;
+  position: relative;
+  width: 100%;
+  opacity: 0.8;
+}
+.arrow_right{
+  position: absolute;
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+  font-size: 29px;
+}
+.input_last{
+  width: 45% !important;
+  background: none;
+  border-color: #000;
+  line-height: 2.3;
+}
+.copy_link{
+  width: 115px !important;
+  background: linear-gradient(90deg,#4640c2,#169573);
+  color: #fff !important;
+  border: none !important;
+  margin-left: 1rem;
+  line-height: 2.5;
+  text-transform: uppercase;
+}
+.fantom_para{
+  line-height: 2.5;
+  color: hsl(0deg 0% 74%);
+}
+.img_text{
+  margin-left: 1.5rem;
+}
+
+.footer{
+  background: linear-gradient(90deg,#20d288,#974aff);
+  padding: 0.6rem 0;
+}
+.lottery_img{
+  width: 25%;
+}
+/* Media query */
+
+/* tablet */
+@media(max-width: 991px){
+  .fantom_text {
+    margin-top: 10rem;
+}
+.input_last {
+  border-color: #dee2e6 !important;
+  width: 69% !important;
+}
+.nav_btn {
+  text-align: center;
+}
+.img_text {
+  margin-left: 0.5rem;
+  font-size: 12px;
+}
+.tablet_img{
+  width: 66px;
+}
+.tablet_img1{
+  width: 33px;
+}
+.arrow_right {
+  margin-top: 0.5rem;
+  font-size: 25px;
+}
+.green_bg {
+  padding: 2rem;
+}
+.green_bg p {
+  padding: 3rem 1rem 0rem 1rem;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.white_paper_img {
+  width: 50% !important;
+  left: 11rem;
+}
+.fantom_text h1 {
+  font-size: 38px;
+}
+.fantom_text p {
+  font-size: 12px;
+}
+.ul_div {
+  margin-top: 6rem;
+}
+.card_sect1 {
+  width: 165px;
+  height: 160px;
+  padding: 0.5rem;
+}
+.world_para {
+  padding-top: 5rem;
+}
+.world_para h1 {
+  letter-spacing: 0px;
+}
+.fantom_para {
+  line-height: 1.5;
+}
+.profit_card {
+  padding: 3rem 1.5rem;
+  width: 100%;
+}
+.lotery h1 {
+  bottom: 118px;
+  letter-spacing: 4px;
+}
+.blue_bg {
+  padding: 0rem 1rem !important;
+}
+}
+
+/* mobile */
+@media(max-width: 767px){
+  .fantom_text {
+    margin-top: 1rem;
+    text-align: center;
+}
+.lottery_img {
+  width: 75%;
+}
+.lotery h1 {
+  bottom: 136px;
+  letter-spacing: 2px;
+}
+.section4 {
+  margin-top: 4rem !important;
+}
+.green_bg {
+  padding: 1rem;
+}
+.mob_space{
+  margin-bottom: 2rem;
+}
+.green_bg p {
+  padding: 0rem 1rem 0rem 1rem;
+}
+.white_paper_img {
+  display: none;
+}
+.arrow_right {
+  display: none;
+}
+.input_last {
+  width: 100% !important;
+}
+.copy_link {
+  margin-top: 1rem;
+}
+.footer p{
+  font-size: 10px;
+}
+.world_imgl p{
+  font-size: 11px;
+}
+.mob_row{
+  text-align: center;
+}
+.matic {
+  margin-left: 0rem;
+}
+.img_sec1 {
+  margin-left: 0rem;
+}
+.total {
+  margin-left: 0rem;
+}
+.card_sect1 {
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+.world_img {
+  width: 100%;
+}
+.fantom_para {
+  font-size: 11px;
+}
+.world_para {
+  padding-top: 3rem;
+}
+.fantom_text h1 {
+  font-size: 25px;
+}
+.ul_div {
+  margin-top: 2rem;
+}
+}
